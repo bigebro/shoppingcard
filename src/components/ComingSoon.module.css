@@ -1,0 +1,37 @@
+/* COMING SOON STYLES */
+
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: calc(100vh - 6rem);
+  height: 100%;
+  margin-top: 6rem;
+  padding-top: 2rem;
+}
+
+.container {
+  width: 450px;
+  height: 650px;
+  background-image:  linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),url('https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGF2ZW5nZXJzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.text {
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 35rem;
+  text-align: center;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .container {
+    width: 350px;
+    height: 550px;
+  }
+  .text {
+    margin-top: 30rem;
+  }
+}
